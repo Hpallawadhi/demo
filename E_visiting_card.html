@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-visiting Card</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body{
+            text-align: center;
+            background-color: whitesmoke;
+        }
+        #whole{
+            background-color: white;
+            margin-left: 30%;
+            height: 500px;
+            width: 700px;
+            border-radius: 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0,0.1);
+        }
+        #intro{
+            background-color: rgb(31, 30, 43);
+            color: white;
+            height: 60px;
+            border-radius: 30px;
+            text-align: center;
+            padding-top: 6px;
+        }
+        #cont{
+            display: flex;
+            flex-wrap: wrap;  
+            padding-left: 10px; 
+        }
+        #cont h4{
+            display: inline;
+        }
+        .contactinfo{
+            margin-top: 50px;
+            margin-right: 20px;
+            display: inline-block;
+            vertical-align:center;
+        }
+        #phone{
+            margin-left: -90px;
+        }
+        #link{
+            text-align: left;
+            margin-left: 10px;
+        }
+        #about{
+            position: absolute;
+            left:55%;
+            top: 12%;
+            height: 400px;
+            width: 300px;
+            background-color: rgba(0, 0, 0,0.4);
+            border-radius: 30px;
+        }
+        #hi{
+            margin-top: 10px;
+            background-color: #333;
+            color: whitesmoke;
+            font-weight: 100;
+            width: 340px;
+            height: 70px;
+            border-radius: 20px;
+            padding: 15px;
+        }
+        /* #whole{
+            background-color: white;
+            margin-left: 30%;
+            height: 500px;
+            width: 700px;
+            border-radius: 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0,0.1);
+        } */
+        /* #about{
+            position: absolute;
+            left:55%;
+            top: 12%;
+            height: 400px;
+            width: 300px;
+            background-color: rgba(0, 0, 0,0.4);
+            border-radius: 30px;
+        } */
+        @media (max-width: 1460px){
+            #whole{
+                height: 950px;
+                margin-top: 300px;
+                margin-left: 150px;
+                width: 500px;
+            }
+            #about{
+                position: absolute;
+                left: 250px;
+                top: 800px;
+            }
+            #hi{
+                margin-left: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="whole">
+        <div id="intro">
+            <h3>Haripriya-A Student</h3>
+        </div>
+        <div id="cont">
+            <h4>Contact me at:</h4>
+            <div class="contactinfo">
+                <i class="bi bi-telephone-fill bi-outline-primary" id="phone"></i><span><h4>9737000688</h4></span>
+            </div>
+            <div class="contactinfo">
+                <i class="bi bi-instagram bi-outline-primary"></i><span><h4>@Haripriya_allawadhi</h4></span>
+            </div>
+        </div>
+        <div id="link">
+            <h5>Email Link</h5>
+            <a href="#">hfyfgbhjhjvbnmbh.com</a>
+            <h5>Insta Link</h5>
+            <a href="#">hfyfgbhjhjvbnmbh.com</a>
+            <h5>LinkedIn Link</h5>
+            <a href="#">hfyfgbhjhjvbnmbh.com</a>
+        </div>
+        <div id="about">
+            <h4>About Me</h4>
+            <p>HI! I m Haripriya a student Learning. <br>I am very keen to coding and <br>love to make websites. <br>This here is my E-visiting. <br>
+                HI! I m Haripriya a student Learning. <br>I am very keen to coding and <br>love to make websites. <br>This here is my E-visiting card. <br>
+                HI! I m Haripriya a student Learning. <br>I am very keen to coding and <br>love to make websites. <br>This here is my E-visiting card. <br>
+                HI! I m Haripriya a student Learning. <br>I am very keen to coding and <br>love to make websites. <br>This here is my E-visiting card.</p>
+        </div>
+        <div id="hi">
+            <h3>We would love to talk to you <br> any time ❤️</h3>
+        </div>
+</div>
+</body>
+</html>
